@@ -1,0 +1,12 @@
+.today-card {
+  background-color: #ff8c00;
+  padding: 12px;
+  border-radius: 10px;
+  color: white;
+  height: 180px;
+  overflow: hidden;
+}
+
+.today-card h3 {
+  margin: 0 0 10px 0;
+}

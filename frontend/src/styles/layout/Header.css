@@ -1,0 +1,84 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ff6f00;
+  color: white;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  height: 80px;
+  margin-right: 10px; /* Add some space between the logo and the text */
+}
+
+header .logo-text {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 60px; /* Ensure the same height as the logo image */
+}
+
+header .logo-text p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  align-self: center; /* Align the text to the center of the logo's height */
+}
+
+header .button {
+  background-color: #ff6600;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+header .button:hover {
+  background-color: #cc5200;
+}
+
+
+
+
+/*header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ff6f00;
+  color: white;
+}
+
+header .logo img {
+  height: 60px;
+}
+
+header .login button {
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+header .register button {
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+} */

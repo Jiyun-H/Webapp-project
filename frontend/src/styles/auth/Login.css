@@ -1,0 +1,67 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.login-form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-form h2 {
+    margin-bottom: 1.5rem;
+    color: #ff7f50; /* Coral color for the header */
+    text-align: center;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #495057;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #ff7f50; /* Coral color for the button */
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #e06b3b; /* Darker shade of coral for hover effect */
+}
+
+.forgot-password {
+    display: block;
+    margin: 1rem 0;
+    text-align: center;
+    color: #ff7f50;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,94 @@
+.coupon-card {
+  background-color: #ff8c00;
+  padding: 12px;
+  border-radius: 10px;
+  color: white;
+  height: 180px;
+  overflow: hidden;
+}
+
+.coupon-card h3 {
+  margin: 0 0 10px 0;
+}
+
+.latest-coupon {
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.coupon-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  height: 80%;
+  color: black;
+  border-radius: 10px;
+}
+
+.coupon-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.coupon-description {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.coupon-location,
+.coupon-expiry {
+  font-size: 14px;
+}
+
+.coupon-value {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coupon-amount {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.coupon-use-now {
+  font-size: 14px;
+  background-color: #ff8c00;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.previous-coupons-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.previous-coupons-button {
+  background-color: #d2691e;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.previous-coupons-button:hover {
+  background-color: #c15817;
+}
+
+.previous-coupons {
+  margin-top: 20px;
+}
+
+.previous-coupons .coupon-details {
+  background-color: #ffa500;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}

@@ -1,0 +1,60 @@
+.coupons-section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    max-width: 800px; /* Center the section */
+    margin-left: auto; /* Center the section */
+    margin-right: auto; /* Center the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for better appearance */
+}
+
+.coupons-section h2 {
+    color: #ff7f50; /* Coral color for the header */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.coupons-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.coupons-section li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    background: #fff; /* Add a white background for each coupon */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add some shadow for better appearance */
+}
+
+.coupons-section li:last-child {
+    border-bottom: none;
+}
+
+.coupons-section button {
+    background: #ff9800;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: flex-start; /* Align button to the left */
+}
+
+.coupons-section button:hover {
+    background: #e68900;
+}
+
+.no-coupon-item {
+    font-size: 1.2rem;
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}

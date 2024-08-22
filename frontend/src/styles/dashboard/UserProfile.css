@@ -1,0 +1,53 @@
+/* UserProfile.css */
+.user-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 12px 12px;
+  margin: 20px 10px;
+
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 20px;
+
+  position: relative;
+}
+
+.user-profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 30%;
+  margin-right: 200px;
+}
+
+.user-profile .info h2 {
+  margin: 10;
+  font-weight: bold;
+  font-size: 2em;
+  color: #070707;
+}
+
+.user-profile .info p {
+  margin: 10;
+  font-size: 1em;
+  color: #070707;
+}
+
+.edit-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #666;
+  transition: background-color 0.3s;
+  border-radius: 30%;
+}
+
+.edit-icon:hover {
+  background-color: #f0f0f0;
+}

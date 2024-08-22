@@ -1,0 +1,7 @@
+
+.restaurant-header, .discounts, .menu, .photos, .reviews, .booking-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+

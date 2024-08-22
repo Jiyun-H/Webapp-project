@@ -1,0 +1,117 @@
+.restaurant-header {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.restaurant-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  z-index: 0;
+}
+
+.restaurant-header-content {
+  position: relative;
+  z-index: 1;
+  flex-grow: 1;
+}
+
+.restaurant-header h1 {
+  font-size: 2.5em;
+  color: #ff6600; /* Main orange color */
+  margin-bottom: 10px;
+}
+
+.restaurant-header p {
+  margin: 5px 0;
+}
+
+.restaurant-header nav {
+  margin-top: 20px;
+}
+
+.restaurant-header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid #ff6600;
+  margin-bottom: 20px;
+}
+
+.restaurant-header nav ul li {
+  display: inline;
+}
+
+.restaurant-header nav ul li a {
+  color: #ff6600; /* Main orange color */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.restaurant-header nav ul li a:hover {
+  color: #fff;
+  background-color: #ff6600; /* Main orange color */
+  border-radius: 4px;
+}
+
+.content {
+  margin: 20px 0;
+}
+
+.rating-container {
+  position: relative;
+  z-index: 1;
+  text-align: right;
+  font-size: 2em; /* Adjusted font size */
+  font-weight: bold;
+  color: #ff6600; /* Main orange color */
+}
+
+.rating-container .rating {
+  font-size: 1em; /* Adjusted font size for reviews text */
+  font-weight: normal;
+  color: #fff;
+}
+
+.greeting-text {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2rem;
+  color: #495057;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.greeting-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ff7f50;
+}
+
+.greeting-text p {
+  margin: 0.5rem 0;
+  color: #495057;
+}
